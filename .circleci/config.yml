@@ -2,7 +2,7 @@ version: 2
 jobs:
   build:
     docker:
-      - image: polyglotted/rubypy:1
+      - image: polyglotted/rubypy
     steps:
       - checkout
       - run:
