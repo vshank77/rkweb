@@ -9,7 +9,7 @@ jobs:
           name: install deps
           command: |
             gem install jekyll
-            apt-get install python3-pip python-dev build-essential -y
+            apt-get install python-pip python-dev build-essential -y
             pip install awscli
       - run:
           name: Build and serve
