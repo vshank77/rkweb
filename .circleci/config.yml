@@ -8,7 +8,7 @@ jobs:
       - run:
           name: install deps
           command: |
-            python -m pip install -U pip
+            sudo apt-get install python3-pip
             pip install awscli
             gem install jekyll
       - run:
