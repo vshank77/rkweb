@@ -2,8 +2,7 @@ version: 2
 jobs:
   build:
     docker:
-      - image: circleci/ruby:2.5-node-browsers
-      - image: circleci/python:3.6-jessie
+      - image: polyglotted/rubypy:1
     steps:
       - checkout
       - run:
