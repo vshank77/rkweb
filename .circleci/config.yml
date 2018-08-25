@@ -8,9 +8,9 @@ jobs:
       - run:
           name: install deps
           command: |
-            sudo apt-get install python3-pip -y
-            pip install awscli
             gem install jekyll
+            apt-get install python3-pip python-dev build-essential -y
+            pip install awscli
       - run:
           name: Build and serve
           command: |
