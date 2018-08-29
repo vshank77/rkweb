@@ -596,25 +596,36 @@ section#contact {
   background-position: center;
 }
 
+section#contact .form-group2 label,
 section#contact .section-heading {
   color: #fff;
 }
 
+section#contact .section-subheading {
+  color: #fff;
+  margin-bottom: 40px;
+}
+
+section#contact .form-group2,
 section#contact .form-group {
-  margin-bottom: 25px;
+  margin-bottom: 5px;
 }
 
-section#contact .form-group input,
-section#contact .form-group textarea {
-  padding: 20px;
+section#contact .form-group2 input {
+  padding: 0px;
+}
+section#contact .form-group input {
+  padding: 8px;
 }
 
+section#contact .form-group2 input.form-control,
 section#contact .form-group input.form-control {
   height: auto;
 }
 
-section#contact .form-group textarea.form-control {
-  height: 248px;
+section#contact .form-group2 .text-small {
+  font-size: 0.8em;
+  color: #fff;
 }
 
 section#contact .form-control:focus {
