@@ -196,8 +196,13 @@ header video {
   object-fit: cover;
 }
 
+.soctop {
+  padding-top: 120px;
+  float: right !important;
+}
+
 .imgbox {
-  padding-top: 72px;
+  width: 100% !important;
   display: grid;
   height: 100%;
 }
