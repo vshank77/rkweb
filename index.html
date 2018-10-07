@@ -377,6 +377,14 @@
         <hr class="star-dark mb-5">
         <div class="row">
           <div class="col-lg-3 col-sm-3 text-center mb-3">
+            <form id="generic-donate" action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+              <input type="hidden" name="cmd" value="_s-xclick">
+              <input type="hidden" name="hosted_button_id" value="K7963N5RGBMT6">
+              <input type="image" class="img-fluid img-thumbnail" width="180" src="img/paypal.png" border="0" name="submit" alt="Donate">
+              <a href="#contact" onclick="document.getElementById('generic-donate').submit();"><h4 class="my-4">Make a Donation</h4></a>
+            </form>
+          </div>
+          <div class="col-lg-3 col-sm-3 text-center mb-3">
             <a href="https://www.facebook.com/plugins/group/join/popup/?group_id=1206032442878496&amp;source=email_campaign_plugin" target="_blank">
                 <img class="img-fluid img-thumbnail" width="64" src="img/facebook.png" alt="Facebook"><h4 class="my-4">Join Group</h4></a>
           </div>
@@ -387,14 +395,6 @@
           <div class="col-lg-3 col-sm-3 text-center mb-3">
             <a href="https://docs.google.com/forms/d/e/1FAIpQLSdEsDyOGL8CpCBVA3X9EO7zatTMq9Zu70f0ZQMwjFcCY4ZIqA/viewform" target="_blank">
                 <img class="img-fluid img-thumbnail" width="64"src="img/share.png" alt="Register"><h4 class="my-4">Register to Event</h4></a>
-          </div>
-          <div class="col-lg-3 col-sm-3 text-center mb-3">
-            <form id="generic-donate" action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
-              <input type="hidden" name="cmd" value="_s-xclick">
-              <input type="hidden" name="hosted_button_id" value="K7963N5RGBMT6">
-              <input type="image" class="img-fluid img-thumbnail" width="180" src="img/paypal.png" border="0" name="submit" alt="Donate">
-              <a href="#contact" onclick="document.getElementById('generic-donate').submit();"><h4 class="my-4">Make a Donation</h4></a>
-            </form>
           </div>
         </div>
         <div class="row">
@@ -513,7 +513,7 @@
 
     <!-- Portfolio Modal 3 -->
     <div class="portfolio-modal mfp-hide" id="yejamana-seva">
-      <div class="portfolio-modal-dialog bg-light">
+      <div class="portfolio-modal-dialog bg-dark">
         <a class="close-button d-none d-md-block portfolio-modal-dismiss" href="#">
           <i class="fa fa-2x fa-times"></i>
         </a>
