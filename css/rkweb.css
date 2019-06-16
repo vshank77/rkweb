@@ -157,7 +157,7 @@ section h2 {
 header.masthead {
   position: relative;
   width: 100%;
-  padding-top: 150px;
+  padding-top: 70px;
   padding-bottom: 100px;
   color: white;
   background: url("../img/bg-pattern.png"), #7b4397;
@@ -179,7 +179,7 @@ header.masthead .header-content h1 {
   header.masthead {
     height: 100vh;
     min-height: 775px;
-    padding-top: 0;
+    padding-top: 75px;
     padding-bottom: 0;
   }
   header.masthead .header-content {
