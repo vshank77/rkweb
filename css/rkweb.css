@@ -12,11 +12,11 @@ body {
 
 body {
   font-family: 'Muli', 'Helvetica', 'Arial', 'sans-serif';
-  background: -webkit-gradient(linear, right top, left top, from(#7b4397), to(#dc2430));
+  background: -webkit-gradient(linear, right top, left top, from(#6dd5ed), to(#2193b0));
 }
 
 a {
-  color: #fdcc52;
+  color: #f4bfc7;
   -webkit-transition: all .35s;
   transition: all .35s;
 }
@@ -72,14 +72,19 @@ section h2 {
 }
 
 #mainNav .navbar-brand {
-  color: #fdcc52;
+  color: #f46278;
   font-family: 'Kaushan Script', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
   font-weight: 200;
   letter-spacing: 1px;
 }
 
+#mainNav .navbar-brand .char-wt {
+  font-size: 14px;
+  text-align: right;
+}
+
 #mainNav .navbar-brand:hover, #mainNav .navbar-brand:focus {
-  color: #fcbd20;
+  color: #f46278 important;
 }
 
 #mainNav .navbar-toggler {
@@ -96,7 +101,7 @@ section h2 {
 }
 
 #mainNav .navbar-nav > li > a.active {
-  color: #fdcc52 !important;
+  color: #f46278 !important;
   background-color: transparent;
 }
 
@@ -111,7 +116,7 @@ section h2 {
 
 #mainNav .navbar-nav > li > a:hover,
 #mainNav .navbar-nav > li > a:focus:hover {
-  color: #fdcc52;
+  color: #f46278;
 }
 
 @media (min-width: 992px) {
@@ -124,15 +129,15 @@ section h2 {
     color: fade(white, 70%);
   }
   #mainNav .navbar-brand:hover, #mainNav .navbar-brand:focus {
-    color: white;
+    color: #f46278;
   }
   #mainNav .navbar-nav > li > a,
   #mainNav .navbar-nav > li > a:focus {
-    color: rgba(255, 255, 255, 0.7);
+    color: rgba(244, 98, 120, 0.7);
   }
   #mainNav .navbar-nav > li > a:hover,
   #mainNav .navbar-nav > li > a:focus:hover {
-    color: white;
+    color: #f46278;
   }
   #mainNav.navbar-shrink {
     border-color: rgba(34, 34, 34, 0.1);
@@ -142,7 +147,7 @@ section h2 {
     color: #222222;
   }
   #mainNav.navbar-shrink .navbar-brand:hover, #mainNav.navbar-shrink .navbar-brand:focus {
-    color: #fdcc52;
+    color: #f46278;
   }
   #mainNav.navbar-shrink .navbar-nav > li > a,
   #mainNav.navbar-shrink .navbar-nav > li > a:focus {
@@ -150,7 +155,7 @@ section h2 {
   }
   #mainNav.navbar-shrink .navbar-nav > li > a:hover,
   #mainNav.navbar-shrink .navbar-nav > li > a:focus:hover {
-    color: #fdcc52;
+    color: #f46278;
   }
 }
 
@@ -160,9 +165,9 @@ header.masthead {
   padding-top: 70px;
   padding-bottom: 100px;
   color: white;
-  background: url("../img/bg-pattern.png"), #7b4397;
-  background: url("../img/bg-pattern.png"), -webkit-gradient(linear, right top, left top, from(#7b4397), to(#dc2430));
-  background: url("../img/bg-pattern.png"), linear-gradient(to left, #7b4397, #dc2430);
+  background: url("../img/bg-pattern.png"), #6dd5ed;
+  background: url("../img/bg-pattern.png"), -webkit-gradient(linear, right top, left top, from(#6dd5ed), to(#2193b0));
+  background: url("../img/bg-pattern.png"), linear-gradient(to left, #6dd5ed, #2193b0);
 }
 
 header.masthead .header-content {
@@ -269,8 +274,8 @@ section.features .feature-item i {
   font-size: 80px;
   display: block;
   margin-bottom: 15px;
-  background: -webkit-gradient(linear, right top, left top, from(#7b4397), to(#dc2430));
-  background: linear-gradient(to left, #7b4397, #dc2430);
+  background: -webkit-gradient(linear, right top, left top, from(#6dd5ed), to(#2193b0));
+  background: linear-gradient(to left, #6dd5ed, #2193b0);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
@@ -388,13 +393,13 @@ footer ul li a:hover, footer ul li a:focus, footer ul li a:active, footer ul li 
 }
 
 .bg-primary {
-  background: #fdcc52;
-  background: -webkit-gradient(linear, left top, left bottom, from(#fdcc52), to(#fdc539));
-  background: linear-gradient(#fdcc52, #fdc539);
+  background: #f4bfc7;
+  background: -webkit-gradient(linear, left top, left bottom, from(#f4bfc7), to(#fc5971));
+  background: linear-gradient(#f4bfc7, #fc5971);
 }
 
 .text-primary {
-  color: #fdcc52;
+  color: #f4bfc7;
 }
 
 .no-gutter > [class*='col-'] {
@@ -410,8 +415,8 @@ footer ul li a:hover, footer ul li a:focus, footer ul li a:active, footer ul li 
 
 .btn-outline:hover, .btn-outline:focus, .btn-outline:active, .btn-outline.active {
   color: white;
-  border-color: #fdcc52;
-  background-color: #fdcc52;
+  border-color: #f4bfc7;
+  background-color: #f4bfc7;
 }
 
 .btn {
@@ -452,9 +457,9 @@ footer ul li a:hover, footer ul li a:focus, footer ul li a:active, footer ul li 
   margin: 1rem calc(1rem - 8px);
   position: relative;
   z-index: 2;
-  background: #fdcc52;
-  background: -webkit-gradient(linear, left top, left bottom, from(#fdcc52), to(#fdc539));
-  background: linear-gradient(#fdcc52, #fdc539);
+  background: #f4bfc7;
+  background: -webkit-gradient(linear, left top, left bottom, from(#f4bfc7), to(#fc5971));
+  background: linear-gradient(#f4bfc7, #fc5971);
 }
 
 .portfolio-modal .portfolio-modal-dialog .close-button {

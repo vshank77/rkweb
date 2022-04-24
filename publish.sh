@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-DEFAULT="default"
+DEFAULT="vshank77"
 PROFILE=${AWS_PROFILE:-$DEFAULT}
 BUCKET=radhakalyanam.uk
 DIR=_site/
