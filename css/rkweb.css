@@ -183,7 +183,7 @@ header.masthead .header-content h1 {
 @media (min-width: 992px) {
   header.masthead {
     height: 100vh;
-    min-height: 775px;
+    min-height: 1475px;
     padding-top: 75px;
     padding-bottom: 0;
   }
@@ -192,6 +192,43 @@ header.masthead .header-content h1 {
     text-align: left;
   }
   header.masthead .header-content h1 {
+    font-size: 50px;
+  }
+}
+
+header.masthead2 {
+  position: relative;
+  width: 100%;
+  padding-top: 70px;
+  padding-bottom: 50px;
+  color: white;
+  background: url("../img/bg-pattern.png"), #6dd5ed;
+  background: url("../img/bg-pattern.png"), -webkit-gradient(linear, right top, left top, from(#6dd5ed), to(#2193b0));
+  background: url("../img/bg-pattern.png"), linear-gradient(to left, #6dd5ed, #2193b0);
+}
+
+header.masthead2 .header-content {
+  max-width: 100%;
+  margin-bottom: 50px;
+  text-align: center;
+}
+
+header.masthead2 .header-content h1 {
+  font-size: 30px;
+}
+
+@media (min-width: 992px) {
+  header.masthead2 {
+    height: 100vh;
+    min-height: 575px;
+    padding-top: 75px;
+    padding-bottom: 0;
+  }
+  header.masthead2 .header-content {
+    margin-bottom: 0;
+    text-align: left;
+  }
+  header.masthead2 .header-content h1 {
     font-size: 50px;
   }
 }
