@@ -12,11 +12,11 @@ body {
 
 body {
   font-family: 'Muli', 'Helvetica', 'Arial', 'sans-serif';
-  background: -webkit-gradient(linear, right top, left top, from(#6dd5ed), to(#2193b0));
+  background: -webkit-gradient(linear, right top, left top, from(#12ad2b), to(#84e194));
 }
 
 a {
-  color: #f4bfc7;
+  color: #fcba03;
   -webkit-transition: all .35s;
   transition: all .35s;
 }
@@ -94,7 +94,7 @@ section h2 {
 }
 
 #mainNav .navbar-nav > li > a {
-  font-size: 11px;
+  font-size: 14px;
   font-family: 'Lato', 'Helvetica', 'Arial', 'sans-serif';
   letter-spacing: 2px;
   text-transform: uppercase;
@@ -169,9 +169,9 @@ header.masthead {
   padding-top: 70px;
   padding-bottom: 100px;
   color: white;
-  background: url("../img/bg-pattern.png"), #6dd5ed;
-  background: url("../img/bg-pattern.png"), -webkit-gradient(linear, right top, left top, from(#6dd5ed), to(#2193b0));
-  background: url("../img/bg-pattern.png"), linear-gradient(to left, #6dd5ed, #2193b0);
+  background: url("../img/bg-pattern.png"), #12ad2b;
+  background: url("../img/bg-pattern.png"), -webkit-gradient(linear, right top, left top, from(#12ad2b), to(#84e194));
+  background: url("../img/bg-pattern.png"), linear-gradient(to left, #12ad2b, #84e194);
 }
 
 header.masthead .header-content {
@@ -186,8 +186,8 @@ header.masthead .header-content h1 {
 
 @media (min-width: 992px) {
   header.masthead {
-    height: 100vh;
-    min-height: 1475px;
+    height: 40vh;
+    min-height: 475px;
     padding-top: 75px;
     padding-bottom: 0;
   }
@@ -206,9 +206,9 @@ header.masthead2 {
   padding-top: 70px;
   padding-bottom: 50px;
   color: white;
-  background: url("../img/bg-pattern.png"), #6dd5ed;
-  background: url("../img/bg-pattern.png"), -webkit-gradient(linear, right top, left top, from(#6dd5ed), to(#2193b0));
-  background: url("../img/bg-pattern.png"), linear-gradient(to left, #6dd5ed, #2193b0);
+  background: url("../img/bg-pattern.png"), #12ad2b;
+  background: url("../img/bg-pattern.png"), -webkit-gradient(linear, right top, left top, from(#12ad2b), to(#84e194));
+  background: url("../img/bg-pattern.png"), linear-gradient(to left, #12ad2b, #84e194);
 }
 
 header.masthead2 .header-content {
@@ -223,7 +223,7 @@ header.masthead2 .header-content h1 {
 
 @media (min-width: 992px) {
   header.masthead2 {
-    height: 100vh;
+    height: 50vh;
     min-height: 575px;
     padding-top: 75px;
     padding-bottom: 0;
@@ -315,8 +315,8 @@ section.features .feature-item i {
   font-size: 80px;
   display: block;
   margin-bottom: 15px;
-  background: -webkit-gradient(linear, right top, left top, from(#6dd5ed), to(#2193b0));
-  background: linear-gradient(to left, #6dd5ed, #2193b0);
+  background: -webkit-gradient(linear, right top, left top, from(#12ad2b), to(#84e194));
+  background: linear-gradient(to left, #12ad2b, #84e194);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
@@ -434,13 +434,13 @@ footer ul li a:hover, footer ul li a:focus, footer ul li a:active, footer ul li 
 }
 
 .bg-primary {
-  background: #f4bfc7;
-  background: -webkit-gradient(linear, left top, left bottom, from(#f4bfc7), to(#fc5971));
-  background: linear-gradient(#f4bfc7, #fc5971);
+  background: #fcba03;
+  background: -webkit-gradient(linear, left top, left bottom, from(#fcba03), to(#b88700));
+  background: linear-gradient(#fcba03, #b88700);
 }
 
 .text-primary {
-  color: #f4bfc7;
+  color: #fcba03;
 }
 
 .no-gutter > [class*='col-'] {
@@ -456,8 +456,8 @@ footer ul li a:hover, footer ul li a:focus, footer ul li a:active, footer ul li 
 
 .btn-outline:hover, .btn-outline:focus, .btn-outline:active, .btn-outline.active {
   color: white;
-  border-color: #f4bfc7;
-  background-color: #f4bfc7;
+  border-color: #fcba03;
+  background-color: #fcba03;
 }
 
 .btn {
@@ -498,9 +498,9 @@ footer ul li a:hover, footer ul li a:focus, footer ul li a:active, footer ul li 
   margin: 1rem calc(1rem - 8px);
   position: relative;
   z-index: 2;
-  background: #f4bfc7;
-  background: -webkit-gradient(linear, left top, left bottom, from(#f4bfc7), to(#fc5971));
-  background: linear-gradient(#f4bfc7, #fc5971);
+  background: #fcba03;
+  background: -webkit-gradient(linear, left top, left bottom, from(#fcba03), to(#b88700));
+  background: linear-gradient(#fcba03, #b88700);
 }
 
 .portfolio-modal .portfolio-modal-dialog .close-button {
