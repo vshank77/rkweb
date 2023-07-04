@@ -223,8 +223,8 @@ header.masthead2 .header-content h1 {
 
 @media (min-width: 992px) {
   header.masthead2 {
-    height: 50vh;
-    min-height: 575px;
+    height: 40vh;
+    min-height: 475px;
     padding-top: 75px;
     padding-bottom: 0;
   }
