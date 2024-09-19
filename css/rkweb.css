@@ -12,11 +12,11 @@ body {
 
 body {
   font-family: 'Muli', 'Helvetica', 'Arial', 'sans-serif';
-  background: -webkit-gradient(linear, right top, left top, from(#12ad2b), to(#84e194));
+  background: -webkit-gradient(linear, right top, left top, from(#0297b2), to(#012c56));
 }
 
 a {
-  color: #fcba03;
+  color: #f9d1b7;
   -webkit-transition: all .35s;
   transition: all .35s;
 }
@@ -72,7 +72,7 @@ section h2 {
 }
 
 #mainNav .navbar-brand {
-  color: #2960eb;
+  color: #ffffff;
   font-family: 'Kaushan Script', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
   font-weight: 200;
   letter-spacing: 1px;
@@ -84,7 +84,7 @@ section h2 {
 }
 
 #mainNav .navbar-brand:hover, #mainNav .navbar-brand:focus {
-  color: #2960eb important;
+  color: #ffffff important;
 }
 
 #mainNav .navbar-toggler {
@@ -101,7 +101,8 @@ section h2 {
 }
 
 #mainNav .navbar-nav > li > a.active {
-  color: #2960eb !important;
+  color: #000000 !important;
+  font-weight: bold;
   background-color: transparent;
 }
 
@@ -116,7 +117,7 @@ section h2 {
 
 #mainNav .navbar-nav > li > a:hover,
 #mainNav .navbar-nav > li > a:focus:hover {
-  color: #2960eb;
+  color: #ffffff;
 }
 
 @media (min-width: 992px) {
@@ -126,18 +127,18 @@ section h2 {
   }
   #mainNav .navbar-brand {
     font-size: 1.5em;
-    color: fade(white, 70%);
+    color: fade(black, 70%);
   }
   #mainNav .navbar-brand:hover, #mainNav .navbar-brand:focus {
-    color: #2960eb;
+    color: #ffffff;
   }
   #mainNav .navbar-nav > li > a,
   #mainNav .navbar-nav > li > a:focus {
-    color: #9d29eb;
+    color: #ffffee;
   }
   #mainNav .navbar-nav > li > a:hover,
   #mainNav .navbar-nav > li > a:focus:hover {
-    color: #2960eb;
+    color: #ffffff;
   }
   #mainNav.navbar-shrink {
     border-color: rgba(34, 34, 34, 0.1);
@@ -147,7 +148,7 @@ section h2 {
     color: #222222;
   }
   #mainNav.navbar-shrink .navbar-brand:hover, #mainNav.navbar-shrink .navbar-brand:focus {
-    color: #2960eb;
+    color: #ffffff;
   }
   #mainNav.navbar-shrink .navbar-nav > li > a,
   #mainNav.navbar-shrink .navbar-nav > li > a:focus {
@@ -155,7 +156,7 @@ section h2 {
   }
   #mainNav.navbar-shrink .navbar-nav > li > a:hover,
   #mainNav.navbar-shrink .navbar-nav > li > a:focus:hover {
-    color: #2960eb;
+    color: #ffffff;
   }
 }
 
@@ -167,11 +168,11 @@ header.masthead {
   position: relative;
   width: 100%;
   padding-top: 70px;
-  padding-bottom: 100px;
+  padding-bottom: 0px;
   color: white;
-  background: url("../img/bg-pattern.png"), #12ad2b;
-  background: url("../img/bg-pattern.png"), -webkit-gradient(linear, right top, left top, from(#12ad2b), to(#84e194));
-  background: url("../img/bg-pattern.png"), linear-gradient(to left, #12ad2b, #84e194);
+  background: url("../img/bg-pattern.png"), #0297b2;
+  background: url("../img/bg-pattern.png"), -webkit-gradient(linear, right top, left top, from(#0297b2), to(#012c56));
+  background: url("../img/bg-pattern.png"), linear-gradient(to left, #0297b2, #012c56);
 }
 
 header.masthead .header-content {
@@ -187,7 +188,7 @@ header.masthead .header-content h1 {
 @media (min-width: 992px) {
   header.masthead {
     height: 40vh;
-    min-height: 475px;
+    min-height: 175px;
     padding-top: 75px;
     padding-bottom: 0;
   }
@@ -204,16 +205,16 @@ header.masthead2 {
   position: relative;
   width: 100%;
   padding-top: 70px;
-  padding-bottom: 50px;
+  padding-bottom: 10px;
   color: white;
-  background: url("../img/bg-pattern.png"), #12ad2b;
-  background: url("../img/bg-pattern.png"), -webkit-gradient(linear, right top, left top, from(#12ad2b), to(#84e194));
-  background: url("../img/bg-pattern.png"), linear-gradient(to left, #12ad2b, #84e194);
+  background: url("../img/bg-pattern.png"), #0297b2;
+  background: url("../img/bg-pattern.png"), -webkit-gradient(linear, right top, left top, from(#0297b2), to(#012c56));
+  background: url("../img/bg-pattern.png"), linear-gradient(to left, #0297b2, #012c56);
 }
 
 header.masthead2 .header-content {
   max-width: 100%;
-  margin-bottom: 50px;
+  margin-bottom: 10px;
   text-align: center;
 }
 
@@ -224,7 +225,7 @@ header.masthead2 .header-content h1 {
 @media (min-width: 992px) {
   header.masthead2 {
     height: 40vh;
-    min-height: 475px;
+    min-height: 175px;
     padding-top: 75px;
     padding-bottom: 0;
   }
@@ -315,8 +316,8 @@ section.features .feature-item i {
   font-size: 80px;
   display: block;
   margin-bottom: 15px;
-  background: -webkit-gradient(linear, right top, left top, from(#12ad2b), to(#84e194));
-  background: linear-gradient(to left, #12ad2b, #84e194);
+  background: -webkit-gradient(linear, right top, left top, from(#0297b2), to(#012c56));
+  background: linear-gradient(to left, #0297b2, #012c56);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
@@ -434,13 +435,13 @@ footer ul li a:hover, footer ul li a:focus, footer ul li a:active, footer ul li 
 }
 
 .bg-primary {
-  background: #fcba03;
-  background: -webkit-gradient(linear, left top, left bottom, from(#fcba03), to(#b88700));
-  background: linear-gradient(#fcba03, #b88700);
+  background: #f9d1b7;
+  background: -webkit-gradient(linear, left top, left bottom, from(#f9d1b7), to(#fff8f0));
+  background: linear-gradient(#f9d1b7, #fff8f0);
 }
 
 .text-primary {
-  color: #fcba03;
+  color: #f9d1b7;
 }
 
 .no-gutter > [class*='col-'] {
@@ -456,8 +457,8 @@ footer ul li a:hover, footer ul li a:focus, footer ul li a:active, footer ul li 
 
 .btn-outline:hover, .btn-outline:focus, .btn-outline:active, .btn-outline.active {
   color: white;
-  border-color: #fcba03;
-  background-color: #fcba03;
+  border-color: #f9d1b7;
+  background-color: #f9d1b7;
 }
 
 .btn {
@@ -498,9 +499,9 @@ footer ul li a:hover, footer ul li a:focus, footer ul li a:active, footer ul li 
   margin: 1rem calc(1rem - 8px);
   position: relative;
   z-index: 2;
-  background: #fcba03;
-  background: -webkit-gradient(linear, left top, left bottom, from(#fcba03), to(#b88700));
-  background: linear-gradient(#fcba03, #b88700);
+  background: #f9d1b7;
+  background: -webkit-gradient(linear, left top, left bottom, from(#f9d1b7), to(#fff8f0));
+  background: linear-gradient(#f9d1b7, #fff8f0);
 }
 
 .portfolio-modal .portfolio-modal-dialog .close-button {
