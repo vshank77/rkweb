@@ -12,11 +12,11 @@ body {
 
 body {
   font-family: 'Muli', 'Helvetica', 'Arial', 'sans-serif';
-  background: -webkit-gradient(linear, right top, left top, from(#0297b2), to(#012c56));
+  background: -webkit-gradient(linear, right top, left top, from(#d58f89), to(#f3655b));
 }
 
 a {
-  color: #f9d1b7;
+  color: #fcffce;
   -webkit-transition: all .35s;
   transition: all .35s;
 }
@@ -170,9 +170,9 @@ header.masthead {
   padding-top: 70px;
   padding-bottom: 0px;
   color: white;
-  background: url("../img/bg-pattern.png"), #0297b2;
-  background: url("../img/bg-pattern.png"), -webkit-gradient(linear, right top, left top, from(#0297b2), to(#012c56));
-  background: url("../img/bg-pattern.png"), linear-gradient(to left, #0297b2, #012c56);
+  background: url("../img/bg-pattern.png"), #d58f89;
+  background: url("../img/bg-pattern.png"), -webkit-gradient(linear, right top, left top, from(#d58f89), to(#f3655b));
+  background: url("../img/bg-pattern.png"), linear-gradient(to left, #d58f89, #f3655b);
 }
 
 header.masthead .header-content {
@@ -207,9 +207,9 @@ header.masthead2 {
   padding-top: 70px;
   padding-bottom: 10px;
   color: white;
-  background: url("../img/bg-pattern.png"), #0297b2;
-  background: url("../img/bg-pattern.png"), -webkit-gradient(linear, right top, left top, from(#0297b2), to(#012c56));
-  background: url("../img/bg-pattern.png"), linear-gradient(to left, #0297b2, #012c56);
+  background: url("../img/bg-pattern.png"), #d58f89;
+  background: url("../img/bg-pattern.png"), -webkit-gradient(linear, right top, left top, from(#d58f89), to(#f3655b));
+  background: url("../img/bg-pattern.png"), linear-gradient(to left, #d58f89, #f3655b);
 }
 
 header.masthead2 .header-content {
@@ -316,8 +316,8 @@ section.features .feature-item i {
   font-size: 80px;
   display: block;
   margin-bottom: 15px;
-  background: -webkit-gradient(linear, right top, left top, from(#0297b2), to(#012c56));
-  background: linear-gradient(to left, #0297b2, #012c56);
+  background: -webkit-gradient(linear, right top, left top, from(#d58f89), to(#f3655b));
+  background: linear-gradient(to left, #d58f89, #f3655b);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
@@ -435,13 +435,13 @@ footer ul li a:hover, footer ul li a:focus, footer ul li a:active, footer ul li 
 }
 
 .bg-primary {
-  background: #f9d1b7;
-  background: -webkit-gradient(linear, left top, left bottom, from(#f9d1b7), to(#fff8f0));
-  background: linear-gradient(#f9d1b7, #fff8f0);
+  background: #fcffce;
+  background: -webkit-gradient(linear, left top, left bottom, from(#fcffce), to(#fff8f0));
+  background: linear-gradient(#fcffce, #fff8f0);
 }
 
 .text-primary {
-  color: #f9d1b7;
+  color: #fcffce;
 }
 
 .no-gutter > [class*='col-'] {
@@ -457,8 +457,8 @@ footer ul li a:hover, footer ul li a:focus, footer ul li a:active, footer ul li 
 
 .btn-outline:hover, .btn-outline:focus, .btn-outline:active, .btn-outline.active {
   color: white;
-  border-color: #f9d1b7;
-  background-color: #f9d1b7;
+  border-color: #fcffce;
+  background-color: #fcffce;
 }
 
 .btn {
@@ -499,9 +499,9 @@ footer ul li a:hover, footer ul li a:focus, footer ul li a:active, footer ul li 
   margin: 1rem calc(1rem - 8px);
   position: relative;
   z-index: 2;
-  background: #f9d1b7;
-  background: -webkit-gradient(linear, left top, left bottom, from(#f9d1b7), to(#fff8f0));
-  background: linear-gradient(#f9d1b7, #fff8f0);
+  background: #fcffce;
+  background: -webkit-gradient(linear, left top, left bottom, from(#fcffce), to(#fff8f0));
+  background: linear-gradient(#fcffce, #fff8f0);
 }
 
 .portfolio-modal .portfolio-modal-dialog .close-button {
