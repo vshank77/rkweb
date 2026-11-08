@@ -1,10 +1,7 @@
 #!/usr/bin/env bash
 
-DEFAULT="vshank77"
-PROFILE=${AWS_PROFILE:-$DEFAULT}
-BUCKET=radhakalyanam.uk
-DIR=_site/
-aws  s3  sync $DIR s3://$BUCKET/ --delete
+aws  s3  sync _site/ s3://radhakalyanam.uk/ --delete --profile=vshank77
 aws cloudfront create-invalidation \
+    --profile=vshank77 \
     --distribution-id EZ57PG7SAFHY2 \
     --paths "/css/**" "/css/rkweb.css" "/js/**" "/img/**" "/index.html" "/sponsor.html" "/yester.html" "/img/*.mp4" "/**" 
